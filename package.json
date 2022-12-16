@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"build": "node index",
+		"test": "node output"
+	},
+	"dependencies": {
+		"@swc/core": "^1.3.23"
+	}
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Module",
+  "span": {
+    "start": 1,
+    "end": 98,
+    "ctxt": 0
+  },
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "span": {
+        "start": 1,
+        "end": 30,
+        "ctxt": 0
+      },
+      "kind": "const",
+      "declare": false,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "span": {
+            "start": 7,
+            "end": 29,
+            "ctxt": 0
+          },
+          "id": {
+            "type": "Identifier",
+            "span": {
+              "start": 7,
+              "end": 10,
+              "ctxt": 1
+            },
+            "value": "sum",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "span": {
+              "start": 13,
+              "end": 29,
+              "ctxt": 0
+            },
+            "callee": {
+              "type": "Identifier",
+              "span": {
+                "start": 13,
+                "end": 20,
+                "ctxt": 2
+              },
+              "value": "require",
+              "optional": false
+            },
+            "arguments": [
+              {
+                "spread": null,
+                "expression": {
+                  "type": "StringLiteral",
+                  "span": {
+                    "start": 21,
+                    "end": 28,
+                    "ctxt": 0
+                  },
+                  "value": "./sum",
+                  "raw": "\"./sum\""
+                }
+              }
+            ],
+            "typeArguments": null
+          },
+          "definite": false
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "span": {
+        "start": 32,
+        "end": 57,
+        "ctxt": 0
+      },
+      "kind": "const",
+      "declare": false,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "span": {
+            "start": 38,
+            "end": 56,
+            "ctxt": 0
+          },
+          "id": {
+            "type": "Identifier",
+            "span": {
+              "start": 38,
+              "end": 41,
+              "ctxt": 1
+            },
+            "value": "num",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "span": {
+              "start": 44,
+              "end": 56,
+              "ctxt": 0
+            },
+            "callee": {
+              "type": "Identifier",
+              "span": {
+                "start": 44,
+                "end": 47,
+                "ctxt": 1
+              },
+              "value": "sum",
+              "optional": false
+            },
+            "arguments": [
+              {
+                "spread": null,
+                "expression": {
+                  "type": "NumericLiteral",
+                  "span": {
+                    "start": 48,
+                    "end": 49,
+                    "ctxt": 0
+                  },
+                  "value": 1,
+                  "raw": "1"
+                }
+              },
+              {
+                "spread": null,
+                "expression": {
+                  "type": "NumericLiteral",
+                  "span": {
+                    "start": 51,
+                    "end": 52,
+                    "ctxt": 0
+                  },
+                  "value": 2,
+                  "raw": "2"
+                }
+              },
+              {
+                "spread": null,
+                "expression": {
+                  "type": "NumericLiteral",
+                  "span": {
+                    "start": 54,
+                    "end": 55,
+                    "ctxt": 0
+                  },
+                  "value": 3,
+                  "raw": "3"
+                }
+              }
+            ],
+            "typeArguments": null
+          },
+          "definite": false
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 58,
+        "end": 75,
+        "ctxt": 0
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 58,
+          "end": 74,
+          "ctxt": 0
+        },
+        "callee": {
+          "type": "MemberExpression",
+          "span": {
+            "start": 58,
+            "end": 69,
+            "ctxt": 0
+          },
+          "object": {
+            "type": "Identifier",
+            "span": {
+              "start": 58,
+              "end": 65,
+              "ctxt": 2
+            },
+            "value": "console",
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "span": {
+              "start": 66,
+              "end": 69,
+              "ctxt": 0
+            },
+            "value": "log",
+            "optional": false
+          }
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "Identifier",
+              "span": {
+                "start": 70,
+                "end": 73,
+                "ctxt": 1
+              },
+              "value": "num",
+              "optional": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 77,
+        "end": 98,
+        "ctxt": 0
+      },
+      "expression": {
+        "type": "AssignmentExpression",
+        "span": {
+          "start": 77,
+          "end": 97,
+          "ctxt": 0
+        },
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "span": {
+            "start": 77,
+            "end": 91,
+            "ctxt": 0
+          },
+          "object": {
+            "type": "Identifier",
+            "span": {
+              "start": 77,
+              "end": 83,
+              "ctxt": 2
+            },
+            "value": "module",
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "span": {
+              "start": 84,
+              "end": 91,
+              "ctxt": 0
+            },
+            "value": "exports",
+            "optional": false
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "span": {
+            "start": 94,
+            "end": 97,
+            "ctxt": 1
+          },
+          "value": "num",
+          "optional": false
+        }
+      }
+    }
+  ],
+  "interpreter": null
+}
